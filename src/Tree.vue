@@ -398,7 +398,7 @@ export default {
 
       newNodes
         .append('text')
-        .attr('dy', '.35em')
+        .attr('dy', '2.0em')
         .attr('x', 0)
         .attr('dx', 0)
         .on('click', this.onNodeTextClick)
