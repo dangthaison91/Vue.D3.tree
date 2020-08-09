@@ -398,9 +398,10 @@ export default {
 
       newNodes
         .append('text')
-        .attr('dy', '2.0em')
+        .attr('dy', '.35em')
         .attr('x', 0)
         .attr('dx', 0)
+        .attr('y', 24)
         .on('click', this.onNodeTextClick)
         .on('mouseover', this.onNodeTextOver)
         .on('mouseleave', this.onNodeTextLeave)
@@ -499,7 +500,7 @@ export default {
       root.each(d => { d.id = this.identifier(d.data) })
       const size = this.getSize()
       root.x = size.height / 2
-      root.y = 24
+      root.y = 0
       root.x0 = root.x
       root.y0 = root.y
       this.redraw()
