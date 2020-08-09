@@ -499,7 +499,7 @@ export default {
       root.each(d => { d.id = this.identifier(d.data) })
       const size = this.getSize()
       root.x = size.height / 2
-      root.y = 0
+      root.y = 24
       root.x0 = root.x
       root.y0 = root.y
       this.redraw()
