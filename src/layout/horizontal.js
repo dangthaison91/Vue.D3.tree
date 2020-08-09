@@ -32,7 +32,7 @@ export default {
   layoutNode (children, {leaf, node}) {
     return {
       x: !children ? leaf : -node,
-      y: 0,
+      y: 24,
       rotate: 0,
       textRotate: 0,
       anchor: !children ? 'start' : 'end'
